@@ -28,6 +28,7 @@ jobs:
           TURBO_TEAM: rocketseat
 
       - name: Deploy storybook
+        shell: bash
         working-directory: 'packages/docs'
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
