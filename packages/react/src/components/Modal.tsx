@@ -1,3 +1,3 @@
 export function Modal() {
-  return <div></div>
+  return <div>Modal</div>
 }
